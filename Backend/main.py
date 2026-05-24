@@ -83,3 +83,15 @@ def recommend(movie_title: str, n: int = 10):
         "query": movie_title,
         "recommendations": results.to_dict(orient="records")
     }
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        "https://movie-recommender-mu-six.vercel.app/"   # ← replace with your actual Vercel URL
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
