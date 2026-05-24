@@ -3,7 +3,7 @@
 A content-based movie recommender built with cosine similarity and TF-IDF.
 Search or browse a movie you've watched and get 10 personalized recommendations with posters.
 
-**[Live Demo](https://your-vercel-url.vercel.app)** | **[GitHub](https://github.com/philipkim08)**
+**[Live Demo](https://movie-recommender-mu-six.vercel.app/)** | **[GitHub](https://github.com/philipkim08)**
 
 ## Tech Stack
 - **Backend:** Python, FastAPI, scikit-learn, pandas
