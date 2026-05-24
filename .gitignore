@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.Python
+
+# Environment variables — never push these
+.env
+.env.local
+
+# Node
+node_modules/
+dist/
+
+# Mac
+.DS_Store
